@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes! Ou diminua o tamanho do zoom do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="img/small.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="img/medium.png" type="image/png">
+        <img src="img/big.png" alt="imagem-big">
+    </picture> 
+    <h1>Reprodução de Aúdio</h1>
+    <p>Vamos aprender a reproduzir o aúdio</p>
+    <audio src="midia/audioteste.ogg" controls autoplay></audio>
+    <!--MP3 WAV OGG (audios compatíveis)-->
+    <!--Podemos colocar aúdios de outra forma abaixo--> 
+    <p>Outro aúdio abaixo para escurtamos</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"> 
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav"> 
+    </audio>
+    <p>Caso não consiga escutar o aúdio, baixe-o clicando <a href="download/guanacast-33.zip" download="guanacast-33.zip" type="application/zip">aqui</a></p>    
+    <p>Caso não consiga escutar o aúdio, baixe-o clicando <a href="download/audioteste.zip" download="audioteste.zip" type="application/zip">aqui</a></p>    
+     <!--metadata(o aúdio só pe baixado quando clicado), none, auto(audio baixa automáticamente)-->
+     <!--para fazer o download é necessário criar a pasta download e aplicar os comandos <a href= "download/nome do arquivo download="nomedoarquivo.tipodoarquivo" type="application/tipodoarquivo"-->
+</body>
+</html>

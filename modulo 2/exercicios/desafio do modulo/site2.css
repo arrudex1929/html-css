@@ -1,0 +1,103 @@
+@charset "UFT-8";
+
+  @font-face {
+        font-family:"android";
+        src: url("fontes/idroid.otf") format("opentype");
+    }
+
+
+body { 
+background-color: rgb(85, 230, 145);
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+} 
+
+main { 
+
+    background-color: whitesmoke;
+    width: 800px;
+    margin: auto;
+    
+}
+
+header { 
+    background-image: linear-gradient(to top, #004F26, #00783A, #00A14E);
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    color: whitesmoke;
+    padding:14px 25px 40px 24px ;
+    text-align: center;
+    
+} 
+
+
+nav > a:hover{ 
+    text-decoration: underline;
+}
+
+.menu { 
+    
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    
+}
+
+footer { 
+
+    background-color: #004F26;
+    padding: 1px;
+    text-align: center;
+}
+
+footer > p { 
+    margin: 0px;
+}
+
+h2 { 
+    font-family: "android", sans-serif;
+    padding: 8px;
+    color: green;
+}
+
+h3 { 
+    background-image:linear-gradient(to right, rgb(168, 243, 168), rgb(176, 238, 176), rgba(255, 255, 255, 0.386));
+    font-family: "android", sans-serif;
+    padding: 8px; 
+    color: green;
+    margin: -2px 0px 8px 8px;
+  
+    
+}
+
+
+p { 
+    padding: 8px;
+}
+
+#partetres { 
+
+    background-color: rgb(137, 241, 180); 
+    margin: auto;
+    border-radius: 10px 15px;
+    width: 750px;
+    box-shadow: 1px 1px 1px 1px rgba(33, 33, 33, 0.308);
+}
+
+#partetres > p { 
+
+    color: whitesmoke;
+    background-color: darkcyan;
+    border-radius: 10px 10px;
+    box-shadow: 1px 1px 1px 1px rgba(33, 33, 33, 0.308);
+} 
+
+#partedois > img { 
+
+    text-align: center;
+} 
+
+iframe { 
+
+    margin: auto;
+    background-color: #004F26;
+}

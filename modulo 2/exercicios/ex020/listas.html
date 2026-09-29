@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Personalizados</title>
+
+    <style>
+        
+        @font-face { 
+            font-family: "baby";
+            src: url(fonts/hello_baby/Hello\ Baby.otf) format(opentype);
+        }
+        
+        body{
+            font-family: "baby", sans-serif;
+            font-size: 2.4em;
+
+        }
+
+        a{ 
+            color: brown;
+            text-decoration: none;
+            width: 200px;
+        }
+
+        a:visited { 
+            color: darkblue
+
+        }
+
+
+        
+
+        a:hover { 
+            text-decoration: underline;
+
+        } 
+
+        a::after { 
+            content: " link";
+            font-weight: normal;
+            text-decoration: none;
+            color: gray;
+        }
+        a::before { 
+            content: "link";
+            font-weight: normal;
+            text-decoration: underline;
+            color: gray;
+        }
+
+
+        /*
+
+    :: indica que podemos usar sub elementos, colocar     
+
+
+  */
+    </style>
+</head>
+<body>
+    <h1>Links Personalizados</h1> 
+    <ul>
+        <li><a href="https://youtube.com" target="_blank" rel="next">YouTube</a></li>
+        <li><a href="https://google.com" target="_blank" rel="next">Google</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="next">Instagram</a></li>
+        <li><a href="https://cursoemvideo.com" target="_blank" rel="next">Curso em Vídeo</a></li>
+
+    </ul>
+</body>
+</html>

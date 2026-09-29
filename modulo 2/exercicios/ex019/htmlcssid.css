@@ -1,0 +1,54 @@
+@charset "UFT-8"; 
+
+/* tudo que em HTML é ID no CSS é "#" 
+   tudo que em HTML é Class no CSS é "." 
+*/    
+
+body{ 
+    
+    background-color:#0B4228;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1{ 
+    color: #27E589;
+
+}
+
+#principal { 
+
+    text-align: center;
+    background-color: azure;
+    color: #126B40;
+}
+
+
+h2 { 
+    color: #00E5B0;
+
+}
+
+p { 
+    color:whitesmoke
+}
+
+
+.basico { 
+
+    color:#00E5B0;
+}
+
+.intermediario { 
+
+    color:#0b00e5;
+}
+
+.avançado { 
+
+    color:#e50000;
+}
+
+.destaque { 
+    background-color: #0b00e54d;
+}

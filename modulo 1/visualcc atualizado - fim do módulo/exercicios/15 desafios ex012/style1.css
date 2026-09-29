@@ -1,0 +1,29 @@
+body{  
+    background-color: rgb(32, 34, 35);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    
+}
+h1, h2{
+    text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%; /* ajuste o tamanho conforme necessário */
+}
+    
+
+ .container{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+ .box{
+            padding: 20px;
+            border-radius: 5px;
+        }

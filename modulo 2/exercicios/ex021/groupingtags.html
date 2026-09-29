@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroupingTags</title>
+    <style>
+        
+        body { 
+            margin: 0;
+            background-color: gray;
+
+        }
+
+        h1{ 
+            box-shadow: inset   10px 10px 10px black;
+        }
+
+        header{ 
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav { 
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black ;
+
+
+        }
+
+        nav > a { 
+            text-decoration:  none;
+            color: white; 
+            font-weight: bold;
+            margin: 30px;
+        } 
+
+        nav > a:hover { 
+
+            text-decoration: underline;
+            color: blue;
+        } 
+
+        nav > a::marker { 
+
+            color: red;
+        }
+        main { 
+
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        article { 
+            background-color: lightgray;
+
+        }
+
+        article > aside { 
+            background-color: rgb(73, 73, 75);
+            color: white;
+            text-align: center ;
+        }
+
+        footer { 
+
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 4px;
+
+        }
+
+        footer > p { 
+
+            margin: 0px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/16%20-%20Modelo%20de%20Caixas.pdf"  target="_blank">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assunto">  
+                       
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre Lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci molestias aspernatur facere officiis minus provident, nam fuga, nesciunt molestiae quasi vitae pariatur fugit? Maiores repellat quisquam alias dignissimos ducimus neque.</p> 
+                <aside>Artigo escrito por estudante iap</aside>
+            </article>        
+                
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito por estudante. (ESTUDO)</p>
+    </footer>
+</body>
+</html>
