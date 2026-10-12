@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Meu primeiro Formulário</h1>
+    <form action="index.php" method="get" autocomplete="on">
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="nome" id="iusu" autocomplete="username" required minlength="5" maxlength="15" size="12" placeholder="user">
+            
+        </p>
+        <p>
+            <label for="ipass">Senha:</label>
+            <input type="password" name="nome" id="ipass" autocomplete="new-password" minlength="8" maxlength="30" size="12" placeholder="senha">
+        </p>
+        <p>
+            <input type="submit" value="send">
+            <input type="reset" value="clean">
+        </p>
+    </form>
+</body>
+</html>
